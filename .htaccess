@@ -1,0 +1,45 @@
+# =============================================
+# STOK India — Security Headers & Redirects
+# =============================================
+
+# ---- Security Headers ----
+<IfModule mod_headers.c>
+    # Prevent XSS and code injection attacks
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://ajax.googleapis.com https://d3e54v103j8qbb.cloudfront.net https://cdnjs.cloudflare.com https://connect.facebook.net https://uploads-ssl.webflow.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; media-src 'self' https://stokindia.com https://uploads-ssl.webflow.com; frame-src 'none'; connect-src 'self' https://www.google-analytics.com https://www.facebook.com;"
+
+    # Prevent clickjacking attacks via iframes
+    Header always set X-Frame-Options "SAMEORIGIN"
+
+    # Prevent URL leakage on non-HTTPS requests
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+    # Prevent MIME sniffing exploits
+    Header always set X-Content-Type-Options "nosniff"
+
+    # Enforce HTTPS (HTTP Strict Transport Security)
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+
+    # Remove server info header to prevent info exposure
+    Header always unset X-Powered-By
+    Header always set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# ---- Force HTTPS (uncomment when SSL is active) ----
+# <IfModule mod_rewrite.c>
+#     RewriteEngine On
+#     RewriteCond %{HTTPS} off
+#     RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# </IfModule>
+
+# ---- 301 Redirect: www to non-www ----
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP_HOST} ^www\.stokindia\.com [NC]
+    RewriteRule ^(.*)$ https://stokindia.com/$1 [L,R=301]
+</IfModule>
+
+# ---- Custom 404 Error Page ----
+ErrorDocument 404 /404.html
+
+# ---- Prevent directory listing ----
+Options -Indexes

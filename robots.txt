@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /age-verification.html
+Disallow: /intro-no.html
+Disallow: /index.html
+Disallow: /401.html
+Disallow: /upload/
+
+Sitemap: https://stokindia.com/sitemap.xml
