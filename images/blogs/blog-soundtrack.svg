@@ -1,0 +1,13 @@
+<svg width="1200" height="780" viewBox="0 0 1200 780" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="780" rx="44" fill="#F4E8D0"/>
+  <circle cx="900" cy="212" r="152" fill="#FFF8EB"/>
+  <circle cx="900" cy="212" r="78" fill="#111111"/>
+  <circle cx="900" cy="212" r="20" fill="#F79400"/>
+  <rect x="97" y="92" width="468" height="74" rx="37" fill="#FFF8EB"/>
+  <text x="137" y="141" fill="#F79400" font-family="Poppins, Arial, sans-serif" font-size="28" font-weight="700">STOK JOURNAL</text>
+  <text x="97" y="276" fill="#111111" font-family="Arial, sans-serif" font-size="78" font-weight="700">Weekend</text>
+  <text x="97" y="360" fill="#111111" font-family="Arial, sans-serif" font-size="78" font-weight="700">Soundtrack</text>
+  <text x="99" y="437" fill="#4A4A4A" font-family="Poppins, Arial, sans-serif" font-size="30">Playlists that move with the room, not against it.</text>
+  <path d="M760 518C809 480 872 510 915 478C955 448 1007 474 1042 441V531C1007 564 955 538 915 568C872 600 809 570 760 608V518Z" fill="#F79400"/>
+  <path d="M760 575C809 537 872 567 915 535C955 505 1007 531 1042 498" stroke="#111111" stroke-width="14" stroke-linecap="round"/>
+</svg>

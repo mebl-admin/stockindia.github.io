@@ -38,6 +38,13 @@
     RewriteRule ^(.*)$ https://stokindia.com/$1 [L,R=301]
 </IfModule>
 
+# Allow sitemap and robots to be served directly
+<FilesMatch "^(sitemap\.xml|robots\.txt)$">
+    RewriteEngine Off
+    Satisfy Any
+</FilesMatch>
+
+
 # ---- Custom 404 Error Page ----
 ErrorDocument 404 /404.html
 

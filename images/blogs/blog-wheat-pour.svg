@@ -1,0 +1,12 @@
+<svg width="1200" height="780" viewBox="0 0 1200 780" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="780" rx="44" fill="#F2E9D6"/>
+  <path d="M864 89C941 89 1003 151 1003 228C1003 305 941 367 864 367C787 367 725 305 725 228C725 151 787 89 864 89Z" fill="#F79400" fill-opacity=".92"/>
+  <rect x="97" y="92" width="468" height="74" rx="37" fill="#FFF8EB"/>
+  <text x="137" y="141" fill="#F79400" font-family="Poppins, Arial, sans-serif" font-size="28" font-weight="700">STOK JOURNAL</text>
+  <text x="97" y="276" fill="#111111" font-family="Arial, sans-serif" font-size="78" font-weight="700">Wheat Beer</text>
+  <text x="97" y="360" fill="#111111" font-family="Arial, sans-serif" font-size="78" font-weight="700">Nights</text>
+  <text x="99" y="437" fill="#4A4A4A" font-family="Poppins, Arial, sans-serif" font-size="30">The right pour gives the evening a slower pace.</text>
+  <path d="M774 400H915L949 580C954 607 933 630 906 630H783C756 630 735 607 740 580L774 400Z" fill="#FFF7E1" stroke="#111111" stroke-width="10"/>
+  <path d="M795 441H894L914 563C917 577 907 590 893 590H796C782 590 772 577 775 563L795 441Z" fill="#F7B347"/>
+  <rect x="783" y="361" width="153" height="62" rx="31" fill="#FFF8EB"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg width="1200" height="780" viewBox="0 0 1200 780" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="780" rx="44" fill="#F6EBD4"/>
+  <rect x="779" y="100" width="258" height="258" rx="52" fill="#111111"/>
+  <text x="860" y="258" fill="#FFF8EB" font-family="Arial, sans-serif" font-size="120" font-weight="700">?</text>
+  <rect x="97" y="92" width="468" height="74" rx="37" fill="#FFF8EB"/>
+  <text x="137" y="141" fill="#F79400" font-family="Poppins, Arial, sans-serif" font-size="28" font-weight="700">STOK JOURNAL</text>
+  <text x="97" y="276" fill="#111111" font-family="Arial, sans-serif" font-size="78" font-weight="700">Quiz Night</text>
+  <text x="97" y="360" fill="#111111" font-family="Arial, sans-serif" font-size="78" font-weight="700">Energy</text>
+  <text x="99" y="437" fill="#4A4A4A" font-family="Poppins, Arial, sans-serif" font-size="30">Keep it lively without turning the room tense.</text>
+  <rect x="759" y="479" width="312" height="118" rx="30" fill="#FFF8EB"/>
+  <rect x="798" y="520" width="72" height="36" rx="18" fill="#F79400"/>
+  <rect x="889" y="520" width="72" height="36" rx="18" fill="#111111"/>
+  <rect x="980" y="520" width="52" height="36" rx="18" fill="#F7B347"/>
+</svg>
