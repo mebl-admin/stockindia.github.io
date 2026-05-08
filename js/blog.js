@@ -277,7 +277,7 @@
 
     var meta = createMetaRow(post, "blog-meta-row");
     var cta = document.createElement("span");
-    cta.className = "blog-cta-inline";
+    cta.className = "blog-cta-inline blog-cta-inline-featured";
     cta.textContent = "Read story";
 
     copy.appendChild(kicker);
@@ -342,7 +342,7 @@
     wrapper.className = "blog-media " + className;
 
     var image = document.createElement("img");
-    image.className = "blog-media-image";
+    image.className = "blog-media-image-featured";
     image.src = "images/blogs/" + post.image;
     image.alt = post.imageAlt || post.title;
     image.loading = "lazy";
