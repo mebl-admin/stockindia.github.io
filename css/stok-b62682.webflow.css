@@ -9704,7 +9704,7 @@
   margin-top: 22px;
   margin-bottom: 20px;
   font-family: Freitagtrial, sans-serif;
-  font-size: 84px;
+  font-size: 68px;
   font-weight: 900;
   line-height: .96;
 }
@@ -9715,8 +9715,8 @@
   max-width: 780px;
   margin-bottom: 0;
   font-family: Poppins, sans-serif;
-  font-size: 20px;
-  line-height: 1.8;
+  font-size: 17px;
+  line-height: 1.75;
 }
 
 .blog-search-section,
@@ -9821,7 +9821,7 @@
   border: 1px solid rgba(17, 17, 17, .08);
   border-radius: 40px;
   grid-column-gap: 30px;
-  grid-template-columns: minmax(0, 1.05fr) minmax(380px, .95fr);
+  grid-template-columns: minmax(0, 1.05fr) minmax(260px, .95fr);
   align-items: stretch;
   text-decoration: none;
   transition: transform .28s ease, box-shadow .28s ease;
@@ -9939,7 +9939,8 @@
 }
 
 .blog-featured-media {
-  min-height: 100%;
+  height: 100%;
+  min-height: 360px;
 }
 
 .blog-card-media {
@@ -10040,6 +10041,10 @@
   width: 4px;
   height: 4px;
   display: inline-block;
+  font-size: 0;
+  overflow: hidden;
+  vertical-align: middle;
+  flex-shrink: 0;
 }
 
 .blog-empty-state,
@@ -10069,7 +10074,7 @@
 
 .blog-detail-hero-card {
   grid-column-gap: 34px;
-  grid-template-columns: minmax(0, 1.08fr) minmax(350px, .92fr);
+  grid-template-columns: minmax(0, 1.08fr) minmax(240px, .92fr);
   padding: 34px;
   display: grid;
 }
@@ -10103,8 +10108,8 @@
 
 .blog-detail-intro {
   color: rgba(23, 23, 23, .84);
-  margin-bottom: 32px;
-  font-size: 20px;
+  margin-bottom: 28px;
+  font-size: 17px;
 }
 
 .blog-quote {
@@ -10153,9 +10158,9 @@
 }
 
 .blog-sidebar-meta strong {
-  font-family: Freitagtrial, sans-serif;
-  font-size: 20px;
-  font-weight: 900;
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
   line-height: 1.1;
   display: block;
 }
@@ -10281,7 +10286,7 @@
 
   .blog-hero-title,
   .blog-detail-title {
-    font-size: 66px;
+    font-size: 54px;
   }
 
   .blog-search-panel,
@@ -10305,7 +10310,8 @@
   }
 
   .blog-featured-media {
-    min-height: 360px;
+    height: auto;
+    min-height: 320px;
   }
 }
 
@@ -10321,12 +10327,12 @@
 
   .blog-hero-title,
   .blog-detail-title {
-    font-size: 48px;
+    font-size: 40px;
   }
 
   .blog-panel-title,
   .blog-featured-title {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .blog-hero-copy,
@@ -10369,13 +10375,13 @@
 @media screen and (max-width: 479px) {
   .blog-hero-title,
   .blog-detail-title {
-    font-size: 38px;
+    font-size: 30px;
   }
 
   .blog-panel-title,
   .blog-featured-title,
   .blog-empty-title {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .blog-card-grid {
