@@ -10499,7 +10499,11 @@
   .blog-prose-heading {
     font-size: 28px;
   }
-}
+
+  .blog-hero-orb-left, .blog-hero-orb-right{
+    display: none;
+  }
+} 
 
 @media screen and (max-width: 479px) {
 
@@ -10511,7 +10515,7 @@
   .blog-panel-title,
   .blog-featured-title,
   .blog-empty-title {
-    font-size: 24px;
+    font-size: 32px;
   }
 
   .blog-card-grid {
